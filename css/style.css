@@ -74,20 +74,41 @@ nav button {
     border-style: solid;
     border-color: #96AB00;
     float: left;
-    width: 49%;
+    width: 55%;
     padding: 10px;
     margin-right: 10px;
 }
 
 .column2 h1,
-h2,
-h3,
-p {
+.column2 h2,
+.column2 h3,
+.column2 p,
+.column4 h1,
+.column4 h2,
+.column4 h3,
+.column4 p {
     padding: 20px;
     float: left;
     width: 60%;
 }
-
+ .column5{
+     border-style: solid;
+    border-color: #96AB00;
+    float: left;
+    width: 27%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.column5
+.column5 h1,
+.column5 h2,
+.column5 h3,
+.column5 p {
+     padding: 20px;
+    float: left;
+}
 .bannerimg {
     margin-top: 80px;
     height: 150px;
@@ -97,22 +118,54 @@ p {
 .column3 {
     border-style: solid;
     border-color: #96AB00;
-    float: none;
-    width: 24%;
+    float: left;
+    width: 18%;
     padding: 10px;
     margin-right: 10px;
+    text-decoration: none;
 }
 
-.column3 {
+.column4 {
     border-style: solid;
     border-color: #96AB00;
     float: left;
-    width: 24%;
+    width: 27%;
     padding: 10px;
+    margin-top: 20px;
     margin-right: 10px;
+    text-decoration: none;
+}
+
+.datum {
+    color: #96AB00;
 }
 
 main {
     float: left;
     color: white;
+}
+
+.sidemenu {
+    font-size: 18px;
+    padding-top: 16px;
+    padding-left: 0;
+    float: left;
+    list-style: none;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidemenu a:hover {
+    color: #96AB00;
+}
+
+.sidemenu li {
+    padding-top: 20px;
+}
+
+.column3 h3 {
+    color: #96AB00;
 }

@@ -15,7 +15,7 @@
             <!-- REVIEW: input type submit? -->
         </form>
         <nav>
-            <ul class="main">
+            <ul class="mainmenu">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="#">Publicaties</a></li>
                 <li><a href="#">Evenementen</a></li>
@@ -30,19 +30,33 @@
         </nav>
     </header>
     <main>
-        <div class="column1"> <!-- REVIEW: section? -->
+        <div class="column1">
+            <!-- REVIEW: section? -->
         </div>
-        <div class="column2"> <!-- REVIEW: section? -->
-            <h3>Informatie, Technologie en Samenleving</h3><!-- REVIEW: waarom een h3? probeer van h1 naar beneden te werken -->
+        <div class="column2">
+            <!-- REVIEW: section? -->
+            <h1>Informatie, Technologie en Samenleving</h1>
             <p>Maatschappelijke informatievoorziening ontstaat wanneer burgers, bewoners, patiënten, klanten en burgers steeds afhankelijker worden van informatiesystemen. Dat is onvermijdelijk wanneer burgers in een participatiesamenleving steeds vaker verantwoordelijk zijn voor hun eigen zorg. Wereldwijd speelt Nederland samen Zuid Korea en de Scandinavische landen een voorhoederol in die ontwikkelingen.</p>
             <img class=bannerimg src="img/homebanner.png"><!-- REVIEW: alt attribuut -->
         </div>
-         <div class="column3">
-            <h3>Ga naar:</h3><br>
-             <br><br><br><!-- REVIEW: br is inline styling. Gebruik margin in CSS -->
-             <a href="#">Kenniskringleden</a><br><!-- REVIEW: gebruik hiervoor een lijst (ul) -->
-             <a href="#">Studenten</a><br>
-             <a href="#">Partners</a>
+        <div class="column3">
+            <h3>Ga naar:</h3><!-- REVIEW: br is inline styling. Gebruik margin in CSS -->
+            <ul class="sidemenu">
+                <li><a href="#">Kenniskringleden</a></li>
+                <li><a href="#">Studenten</a></li>
+                <li><a href="#">Partners</a></li>
+            </ul>
+        </div>
+        <div class="column1">
+            <!-- REVIEW: section? -->
+        </div>
+        <div class="column4">
+            <h2>Nieuws</h2>
+            <h3 class="datum">25 januari 2018</h3>
+        </div>
+        <div class="column5">
+            <h2>Toekomstige Evenementen</h2>
+             <h3 class="datum">27 januari 2018</h3>
         </div>
     </main>
 </body>
