@@ -47,6 +47,7 @@ nav button {
     float: right;
 }
 
+
 .logo {
     height: 100px;
     float: left;
@@ -82,33 +83,17 @@ nav button {
 .column2 h1,
 .column2 h2,
 .column2 h3,
-.column2 p,
-.column4 h1,
-.column4 h2,
-.column4 h3,
-.column4 p {
+.column2 p {
     padding: 20px;
     float: left;
     width: 60%;
 }
- .column5{
-     border-style: solid;
-    border-color: #96AB00;
-    float: left;
-    width: 27%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-right: 10px;
-    text-decoration: none;
-}
-.column5
-.column5 h1,
+
+.column5 .column5 h1,
 .column5 h2,
 .column5 h3,
-.column5 p {
-     padding: 20px;
-    float: left;
-}
+.column5 p {}
+
 .bannerimg {
     margin-top: 80px;
     height: 150px;
@@ -125,7 +110,8 @@ nav button {
     text-decoration: none;
 }
 
-.column4 {
+.column4,
+.column5 {
     border-style: solid;
     border-color: #96AB00;
     float: left;
@@ -136,7 +122,16 @@ nav button {
     text-decoration: none;
 }
 
+.meer {
+    color: #00CCFF;
+}
+
+.meer:hover {
+    color: white;
+}
+
 .datum {
+    padding-top: 0px !important;
     color: #96AB00;
 }
 
